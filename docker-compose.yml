@@ -1,0 +1,7 @@
+services:
+  flow-alerts:
+    build: .
+    container_name: flow-alerts
+    restart: unless-stopped
+    env_file:
+      - .env
