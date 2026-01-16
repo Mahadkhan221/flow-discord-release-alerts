@@ -36,8 +36,6 @@ Once the bot is added to the Flow Discord server and the real channel ID is conf
 ```bash
 docker compose up -d
 ```
-README:
-
 Check logs:
 ```bash
 docker logs -f flow-alerts
